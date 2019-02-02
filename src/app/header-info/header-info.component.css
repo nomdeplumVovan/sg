@@ -15,11 +15,7 @@
   width: 100vw;
   height: 67px;
 }
-.flag{
-  background-image: url(../../assets/icon/Israel.png);
-  width: 32px;
-height: 25px;
-}
+
 .header-info-spot,
 .header-info-time {
   display: flex;
