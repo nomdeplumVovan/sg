@@ -1,3 +1,35 @@
+Main 
+ base
+ classes placed into "shared/" directory. While creation (test-offer) you should create directory into "assets/test-offer/"
+
+(it
+ should contain at least 1 json with translation (possible to be empty) - "assets/test-offer/translations/vocabulary_en.json").
+
+-
+ Implement offer module: attach routing and all the dependencies (can be found in the example offer).
+
+-
+ Implement 1 service (to attach JS and CSS to the offer)
+
+-
+ Attach 3 components (sign-up, opt-in и reg-form). Components should extend from "basic-".
+
+
+Also
+ need properly fill up "environment.ts" like it's done in the example offer.
+
+
+Application
+ should have 2 pages: main landing and after submitting opt-ip form user should see sign-up form.
+
+
+Application
+ should be fully responsive for mobile and desktop. 
+
+Burger
+ menu should be used for the mobile version.
+
+
 # SG
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.9.
