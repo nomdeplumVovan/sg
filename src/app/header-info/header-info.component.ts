@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./header-info.component.css']
 })
 export class HeaderInfoComponent implements OnInit {
-  changeTimer = true;
+  changeTimer = false;
   constructor() { }
 
   ngOnInit() {
