@@ -17,7 +17,8 @@ export class ReverseTimerComponent implements OnInit {
     this.timer$ = timer(this.timerValue, 1000);
 
     this.timer$.subscribe((value: number) => {
-      this.timerValue = +(3600-value);
+      this.timerValue = +(360000-value)>0?(360000-value):(value-360000);
+      
     });
   }
 
