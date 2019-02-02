@@ -1,0 +1,327 @@
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width:  100vw;
+}
+
+/* ========DUBAI LIFESTYLE APP Team=====  */
+.area-members {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-top: 1px solid #dbdbdb;
+  border-bottom: 1px solid #dbdbdb;
+  margin: 20px;
+  padding: 30px;
+  max-width: 1040px;
+}
+
+.area-members p {
+  font-family: 'Roboto Condensed';
+  color: #494949;
+  font-size: 2.6rem;
+  font-weight: 300;
+  text-align: center;
+  max-width: 1040px;
+}
+
+.add-margin {
+  margin: 20px 0;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.black {
+  font-family: 'Khand';
+  color: #000;
+  text-shadow: -2px 0px 0px #000;
+  letter-spacing: 0.1rem;
+}
+
+.orange {
+  color: #ee8100;
+  text-shadow: -2px 0px 0px #ee8100;
+}
+
+.area-members .num {
+  font-family: 'Roboto Condensed';
+  color: #5e5d5d;
+  font-size: 6.8rem;
+  line-height: 7rem;
+  text-align: center;
+}
+
+.team-img {
+  width: 240px;
+  height: 240px;
+  margin-bottom: 8px;
+}
+
+.brown {
+  color: #4e2a00;
+  text-shadow: -2px 0px 0px #4e2a00;
+}
+
+.itallic {
+  font-style: italic;
+}
+
+.cash {
+  animation: wincolor 3s infinite ease-in-out;
+}
+
+/* ========animation win cash=============== */
+@keyframes wincolor {
+  from {
+    color: #000;
+  }
+
+  47% {
+    color: #fb4c31;
+    text-shadow: -3px 0px 3px #fb4c31;
+  }
+
+  52% {
+    color: #fb4c31;
+    text-shadow: -3px 0px 3px #fb4c31;
+  }
+
+  to {
+    color: #000;
+  }
+}
+
+
+/* ============3 Simple Steps===========  */
+.steps {
+  border-bottom: 1px solid #dbdbdb;
+  max-width: 1040px;  
+  box-sizing: border-box;  
+  padding: 0 10px 20px;
+  margin-bottom: 15px;
+}
+
+h2 {
+  font-family: 'Khand';
+  color: #4e2a00;
+  font-size: 4.8rem;
+  font-weight: 500;
+  text-align: center;
+}
+
+.step {
+  display: flex;
+  align-items: center;
+}
+
+.step p {
+  font-family: 'Roboto Condensed';
+  color: #363636;
+  font-size: 2.4rem;
+  font-weight: 300;
+  text-align: left;
+  max-width:  900px;
+  box-sizing: border-box;
+}
+
+.step-num {
+  background-repeat: no-repeat;
+  background-position: center center;
+  border: 3px solid #ee8101;
+  border-radius: 50%;
+  box-sizing: border-box;
+  width: 81px;
+  height: 81px;
+  margin: 15px;
+}
+
+.step1 {
+  background-image: url(../../assets/icon/1.png);
+}
+
+.step2 {
+  background-image: url(../../assets/icon/2.png);
+}
+
+.step3 {
+  background-image: url(../../assets/icon/3.png);
+}
+
+/* =========You Get When You Register============ */
+.registerInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 1px solid #dbdbdb;
+}
+
+.registerInfo p {
+  font-family: 'Roboto Condensed';
+  color: #494949;
+  font-size: 2.4rem;
+  font-weight: 300;
+  text-align: center;
+  max-width: 1040px;
+}
+
+.pairs {
+  display: flex;
+
+  margin: 10px;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+
+}
+
+.info-icon {
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 122px;
+  height: 120px;
+  margin: 10px 20px;
+}
+
+.auto-trade {
+  background-image: url(../../assets/icon/auto-trade.svg);
+}
+
+.vip-area {
+  background-image: url(../../assets/icon/viparea.svg);
+}
+
+.support {
+  background-image: url(../../assets/icon/support.png);
+}
+
+.members-only {
+  background-image: url(../../assets/icon/membersonly.svg);
+}
+
+h4 {
+  font-family: Khand;
+  color: #ee8101;
+  font-size: 3.2rem;
+  font-weight: 700;
+  text-align: left;
+}
+
+.description p {
+  font-family: 'Roboto Condensed';
+  color: #363636;
+  font-size: 2.1rem;
+  font-weight: 300;
+  text-align: left;
+  max-width: 355px;
+}
+
+/* ================Watch Live Accounts/example============  */
+.watch {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.watch img {
+  width: 70vw;
+  max-width: 1040px;
+}
+
+.watch h2,
+.faq h2 {
+  color: #494949;
+}
+
+/* =============Frequently Asked Questions=============== */
+
+
+.faq {
+  display: flex;
+  flex-direction: column;
+  /* align-items: flex-start; */
+  max-width: 1040px;
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+
+.questions {
+  display: flex;
+  flex-direction: column;
+  /* align-self: flex-start; 
+  align-items: flex-start; */
+  font-family: 'Roboto Condensed';
+  border-top: 1px solid #dbdbdb;
+  text-align: left;
+  width: 1020px;
+  margin-bottom: 20px;
+}
+
+.question {
+  color: #3c3c3c;
+  font-size: 2.2rem;
+  font-weight: 300;
+  line-height: 3.6rem;
+  border-bottom: 1px solid #dbdbdb;
+  cursor: pointer;
+}
+.question-active,
+.questionActive {
+  color: #ee8101;
+  font-size: 2.2rem;
+  font-weight: 700;
+  line-height: 4rem;
+}
+
+.ask {
+  color: #3c3c3c;
+  font-size: 1.8rem;
+  font-weight: 300;
+}
+@media(max-width: 1024px){
+
+  .pairs{
+    flex-direction: column;
+  }
+  .step-num{
+    width: 61px;
+    height: 61px;
+  }
+  
+  
+}
+@media(max-width:768px){
+  .step-num{
+    width: 81px;
+    height: 81px;
+  }
+  .step{
+    flex-direction: column;
+    align-items: center;
+    padding: 0 10px;
+  }  
+  .questions {
+    text-align: center;
+    max-width: 750px;
+  }
+}
+@media(max-width: 535px){
+  .info{
+    flex-direction: column;    
+  }
+  .questions {  
+    max-width: 415px;
+  }
+}
+@media(max-width: 376px){
+ 
+  .questions {  
+    max-width: 315px;
+  }
+}

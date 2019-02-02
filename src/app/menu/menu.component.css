@@ -1,0 +1,36 @@
+.header-burger {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 100vw;
+  height: 80vh;
+  position: absolute;
+  z-index: 10;
+}
+
+.ham {
+  display: none;
+  background-image: url(../../assets/icon/outline_menu_white_18dp.png);
+  width: 30px;
+  height: 30px;
+  margin: 5px 0 5px 15px;
+}
+
+
+.header-burger a {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-size: 2.4rem;
+  font-weight: 400;
+  line-height: 4.8rem;
+  text-align: center;
+  text-decoration: none;
+}
+@media(max-width:768px){
+  
+  .ham {
+    display: flex;
+  }
+}

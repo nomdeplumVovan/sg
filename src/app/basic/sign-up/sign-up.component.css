@@ -1,0 +1,67 @@
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 330px;
+  height: 395px;
+  margin-left: 10px;
+}
+
+input {
+  border-radius: 6px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(0, 0, 0, 29);
+  background-color: #ffffff;
+  width: 330px;
+  height: 50px;
+  margin: 5px 0;
+  padding-left: 15px;
+  box-sizing: border-box;
+}
+
+.Prefix {
+  width: 80px;
+  margin-right: 5px
+}
+
+.PhoneNumber {
+  width: 240px;
+}
+
+.sign-up {
+  font-family: 'Khand';
+  color: #502921;
+  text-shadow: -1px 0px 0px #502921;
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: center;
+  border-radius: 16px;
+  box-sizing: border-box;
+  outline: none;
+  background-image: url(../../../assets/icon/btnbg.PNG);
+  background-position: center center;
+  background-repeat: no-repeat;
+  box-shadow: 0px 0px 0px 7px rgba(255, 255, 255, 0.50);
+  width: 325px;
+  height: 85px;
+  margin-top: 5px;
+  animation: shadowBtn 5s infinite ease-in-out;
+}
+
+@media(max-width: 320px){
+  form{
+    width: 315px;
+    margin: 0;
+  }
+  .sign-up{
+    width: 315px;
+  }
+  input{
+    width: 315px;
+  }
+  .PhoneNumber{
+    width: 225px;
+  }
+}

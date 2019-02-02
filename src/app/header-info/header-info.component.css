@@ -1,0 +1,92 @@
+.header {
+  width: 100vw;
+}
+
+.header-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: rgb(255, 255, 255);
+  background-color: rgba(0, 0, 0, 0.4);
+  background-image: url(../../assets/icon/logo.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: fixed;
+  width: 100vw;
+  height: 67px;
+}
+
+.header-info-spot,
+.header-info-time {
+  display: flex;
+  align-items: center;
+  font-family: 'Roboto Condensed';
+  color: #ffffff;
+  font-size: 2.4rem;
+  font-weight: 400;
+  text-align: left;
+  margin: 0 24px;
+}
+
+.header-info-spot {
+  width: 190px;
+}
+
+.header-info-spot p {
+  text-align: justify;
+}
+
+.header-info-spot img {
+  margin: 0 12px -2px;
+}
+
+.header-info-time {
+  width: 329px;
+}
+
+.header-info span {
+  font-size: 6.6rem;
+  font-weight: 700;
+}
+
+.header-timer {
+  cursor: pointer;
+}
+
+@media(max-width: 1440px) {
+  .header-info {
+    background-position: center 5px;
+    height: 130px;
+    align-items: flex-end;
+  }
+}
+
+
+
+@media(max-width:768px) {
+
+  .header-info {
+    background-size: 96vw;
+    margin-left: 0;
+  }
+
+
+  .header-info-spot {
+    display: none;
+  }
+
+  .header-info-time {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 2rem;
+    width: 250px;
+  }
+
+  .header-timer {
+    width: 168px;
+  }
+
+  .header .header-time {
+    font-size: 4rem;
+  }
+}

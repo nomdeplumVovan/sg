@@ -1,0 +1,80 @@
+.security {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 99vw;
+}
+
+
+
+.security-logo {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-wrap: wrap;
+}
+
+.security-logo div {
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: 5px 15px;
+}
+
+.McAfee {
+  background-image: url(../../assets/icon/mcafee2.png);
+  width: 144px;
+  height: 55px;
+}
+
+.verySign {
+  background-image: url(../../assets/icon/verysign.png);
+  width: 118px;
+  height: 50px;
+}
+
+.Symantec {
+  background-image: url(../../assets/icon/symantec.png);
+  width: 163px;
+  height: 44px;
+}
+
+.Geotrust {
+  background-image: url(../../assets/icon/geotrust.png);
+  width: 165px;
+  height: 30px;
+}
+
+.ssl {
+  background-image: url(../../assets/icon/ssl.png);
+  width: 75px;
+  height: 41px;  
+}
+
+@media(max-width: 768px) {
+  
+  .security-logo{
+    align-items: center;
+  }
+
+  .McAfee,
+  .Symantec,
+  .Geotrust {
+    background-size: cover;
+    max-width: 15vw;
+    min-height: 3vw;
+  }
+
+  .verySign {
+
+    width: 10vw;
+    min-height: 3vw;
+  }
+
+  .ssl {
+    width: 7vw;
+    min-height: 5vw;
+  }
+}
+
+
