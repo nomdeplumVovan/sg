@@ -48,6 +48,7 @@ input {
   height: 85px;
   margin-top: 5px;
   animation: shadowBtn 5s infinite ease-in-out;
+  cursor: pointer;
 }
 
 @media(max-width: 320px){

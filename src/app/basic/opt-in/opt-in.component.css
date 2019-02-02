@@ -52,6 +52,7 @@ input {
   width: 880px;
   height: 132px;
   animation: shadowBtn 5s infinite ease-in-out;
+  cursor: pointer;
 }
 
 @keyframes shadowBtn {

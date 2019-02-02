@@ -32,6 +32,15 @@
   width: 190px;
 }
 
+.flag {
+  background-image: url(../../assets/icon/Israel.png);
+  background-size: 32px 23px;
+  background-position: 30px center;
+  background-repeat: no-repeat;
+  /* width: 32px;
+  height: 25px; */
+}
+
 .header-info-spot p {
   text-align: justify;
 }
@@ -52,6 +61,8 @@
 .header-timer {
   cursor: pointer;
 }
+
+
 
 @media(max-width: 1440px) {
   .header-info {

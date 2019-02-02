@@ -17,6 +17,7 @@
   width: 100%;
   height: 132px;
   animation: shadowBtn 5s infinite ease-in-out;
+  cursor: pointer;
 }
 
 
