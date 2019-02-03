@@ -1,4 +1,3 @@
-
 header {
   display: flex;
   flex-direction: column;
@@ -44,9 +43,10 @@ h1 {
   height: 395px;
   /* margin-top: -5px; */
 }
+
 .security-info {
   font-family: 'Roboto Condensed';
-  color:  #9d9c9c;
+  color: #9d9c9c;
   /* color:  #9d9c9c; */
   font-size: 1.6rem;
   font-weight: 300;
@@ -81,7 +81,8 @@ h1 {
     width: 54vw;
     height: 37vw;
   }
-  header{
+
+  header {
     background-image: url(../../assets/image/header-sign-bg-min.jpg)
   }
 }
@@ -94,10 +95,12 @@ h1 {
     min-height: 8vh;
     margin: 4vh;
   }
-  .videoAndSign-up{
+
+  .videoAndSign-up {
     flex-direction: column-reverse;
     align-items: center;
   }
+
   #header-video {
     display: none;
     flex-direction: column;
@@ -105,7 +108,8 @@ h1 {
     width: 96vw;
     height: 60vw;
   }
-  .security-info{
+
+  .security-info {
     font-size: 1.4rem;
   }
 }

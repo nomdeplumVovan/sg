@@ -93,7 +93,7 @@ footer h4 {
 
 .footer-menu a:hover {
   color: #00ffff;
-  text-decoration: underline  #00ffff;
+  text-decoration: underline #00ffff;
 }
 
 @media(max-width: 1024px) {

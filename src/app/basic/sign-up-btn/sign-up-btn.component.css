@@ -1,14 +1,14 @@
-.sign-up { 
+.sign-up {
   font-family: 'Khand';
   color: #502921;
   text-shadow: -1px 0px 0px #502921;
-  font-size: 8rem;  
+  font-size: 8rem;
   font-weight: 700;
   line-height: 24px;
   text-align: center;
   border-radius: 16px;
   box-sizing: border-box;
-  outline: none;  
+  outline: none;
   background-image: url(../../../assets/icon/btnbg.PNG);
   /* background-size: contain; */
   background-position: center center;
@@ -24,18 +24,20 @@
 @keyframes shadowBtn {
   from {
     box-shadow: 0px 0px 0px 7px rgba(255, 255, 255, 0.10);
-  
+
   }
 
   20% {
     box-shadow: 0px 0px 0px 7px rgba(255, 255, 255, 0.30);
     text-shadow: 0px 0px 18px #ffffff;
   }
+
   50% {
     box-shadow: 0px 0px 0px 7px rgba(255, 255, 255, 0.60);
     transform: scale(1.02);
-    
+
   }
+
   80% {
     box-shadow: 0px 0px 0px 7px rgba(255, 255, 255, 0.30);
     text-shadow: 0px 0px 18px #ffffff;
@@ -43,15 +45,15 @@
 
   to {
     box-shadow: 0px 0px 0px 7px rgba(255, 255, 255, 0.10);
- 
+
   }
 }
 
 @media(max-width: 768px) {
 
-.sign-up-smoll{
-  font-size: 4rem;  
-  height: 85px;
-}
-  
+  .sign-up-smoll {
+    font-size: 4rem;
+    height: 85px;
+  }
+
 }

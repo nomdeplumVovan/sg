@@ -28,11 +28,13 @@
   text-align: center;
   text-decoration: none;
 }
-.header-burger a:hover{
-  color:  #ffae00;
+
+.header-burger a:hover {
+  color: #ffae00;
 }
-@media(max-width:768px){
-  
+
+@media(max-width:768px) {
+
   .ham {
     display: flex;
   }

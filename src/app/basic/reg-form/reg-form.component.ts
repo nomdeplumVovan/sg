@@ -8,18 +8,18 @@ import { UserService } from 'src/app/user.service';
   styleUrls: ['./reg-form.component.css']
 })
 export class RegFormComponent implements OnInit {
-user:User;
-  
-constructor(private userServis: UserService) {}
+  user: User;
+
+  constructor(private userServis: UserService) { }
 
   ngOnInit() {
     this.user = {
       firstName: '',
       email: '',
-      lastName:'',
-      countryCode:'',
-      phone:'',
-      password:''
+      lastName: '',
+      countryCode: '',
+      phone: '',
+      password: ''
     }
 
   }

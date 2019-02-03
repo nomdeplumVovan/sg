@@ -6,14 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./main-reg.component.css']
 })
 export class MainRegComponent implements OnInit {
-  // askShown1 = false;
-  // askShown2 = false;
-  // askShown3 = false;
-  // askShown4 = false;
-  // askShown5 = false;
-  // askShown6 = false;
-  // askShown7 = false;
-  // fullScreen = false;
+  fullScreen = false;
 
   questions = [
     { title: 'What kind of results can I expect?', content: '', isExpanded: false },

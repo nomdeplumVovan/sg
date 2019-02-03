@@ -8,13 +8,13 @@ import { UserService } from 'src/app/user.service';
   styleUrls: ['./opt-in.component.css']
 })
 export class OptInComponent implements OnInit {
- user: User = new User();
- 
+  user: User = new User();
 
-  constructor(private userServis: UserService) {}
+
+  constructor(private userServis: UserService) { }
 
   ngOnInit() {
-   
+
   }
 
 }

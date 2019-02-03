@@ -8,18 +8,18 @@ import { UserService } from 'src/app/user.service';
   styleUrls: ['./sign-up.component.css']
 })
 export class SignUpComponent implements OnInit {
-  user:User;
-  
-  constructor(private userServis: UserService) {}
+  user: User;
+
+  constructor(private userServis: UserService) { }
 
   ngOnInit() {
     this.user = {
       firstName: '',
       email: '',
-      lastName:'',
-      countryCode:'',
-      phone:'',
-      password:''
+      lastName: '',
+      countryCode: '',
+      phone: '',
+      password: ''
     }
 
   }

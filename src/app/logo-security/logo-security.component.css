@@ -6,8 +6,6 @@
   max-width: 99vw;
 }
 
-
-
 .security-logo {
   display: flex;
   justify-content: center;
@@ -48,12 +46,12 @@
 .ssl {
   background-image: url(../../assets/icon/ssl.png);
   width: 75px;
-  height: 41px;  
+  height: 41px;
 }
 
 @media(max-width: 768px) {
-  
-  .security-logo{
+
+  .security-logo {
     align-items: center;
   }
 
@@ -76,5 +74,3 @@
     min-height: 5vw;
   }
 }
-
-

@@ -24,6 +24,7 @@ h1 {
   margin: 28px;
   padding-top: 67px;
 }
+
 .security-info {
   font-family: 'Roboto Condensed';
   color: #fefefe;
@@ -35,6 +36,7 @@ h1 {
   height: 15px;
   margin: -14px 0 20px;
 }
+
 .header-h1 span {
   font-weight: 700;
   text-shadow: -3px 0px 0px #ffffff, 0px 0px 10px #ffffff;
@@ -57,9 +59,9 @@ h1 {
 }
 
 @media(max-width: 1440px) {
-header{
-  background-image: url(../../assets/image/header-bg-min.jpg);
-}
+  header {
+    background-image: url(../../assets/image/header-bg-min.jpg);
+  }
 
   header h1 {
     padding-top: 130px;
@@ -75,14 +77,16 @@ header{
     min-height: 8vh;
     margin: 4vh;
   }
+
   .security-info {
     width: 60vw;
     margin: 10px 0;
   }
 }
+
 @media(max-width: 426px) {
   .security-info {
-    color:#000;
+    color: #000;
     font-size: 1.4rem;
   }
 }

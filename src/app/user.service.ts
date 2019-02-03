@@ -5,16 +5,16 @@ import { User } from './user';
   providedIn: 'root'
 })
 export class UserService {
-  user:User;
+  user: User;
   private users = [];
 
 
   constructor() { }
 
 
- getUsers(){
-  return this.users;
-}
+  getUsers() {
+    return this.users;
+  }
 
 
 }

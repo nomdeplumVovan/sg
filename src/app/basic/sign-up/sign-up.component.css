@@ -51,18 +51,21 @@ input {
   cursor: pointer;
 }
 
-@media(max-width: 320px){
-  form{
+@media(max-width: 320px) {
+  form {
     width: 315px;
     margin: 0;
   }
-  .sign-up{
+
+  .sign-up {
     width: 315px;
   }
-  input{
+
+  input {
     width: 315px;
   }
-  .PhoneNumber{
+
+  .PhoneNumber {
     width: 225px;
   }
 }

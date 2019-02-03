@@ -1,10 +1,10 @@
 import { Component, OnInit } from '@angular/core';
-import { Observable, Observer} from 'rxjs';
+import { Observable, Observer } from 'rxjs';
 
 function getTime(date: Date) {
   return date.toLocaleTimeString([], {
-    hour: '2-digit', 
-    minute:'2-digit'
+    hour: '2-digit',
+    minute: '2-digit'
   });
 }
 
@@ -15,7 +15,7 @@ function getTime(date: Date) {
 })
 export class CurrentTimeComponent implements OnInit {
 
-  timeObserver: Observable<string>; 
+  timeObserver: Observable<string>;
   time: string; // currentTime
 
   constructor() { }

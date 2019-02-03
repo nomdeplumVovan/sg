@@ -11,14 +11,14 @@ export class ReverseTimerComponent implements OnInit {
   timerValue = 0;
   timer$: Observable<number>;
 
-  constructor() { } 
+  constructor() { }
 
-  startTimer(){
+  startTimer() {
     this.timer$ = timer(this.timerValue, 1000);
 
     this.timer$.subscribe((value: number) => {
-      this.timerValue = +(360000-value)>0?(360000-value):(value-360000);
-      
+      this.timerValue = (360000 - value) > 0 ? (360000 - value) : (value - 360000);
+
     });
   }
 
