@@ -57,6 +57,10 @@ h1 {
 }
 
 @media(max-width: 1440px) {
+header{
+  background-image: url(../../assets/image/header-bg-min.jpg);
+}
+
   header h1 {
     padding-top: 130px;
   }

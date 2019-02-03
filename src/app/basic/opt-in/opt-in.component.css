@@ -55,21 +55,30 @@ input {
   cursor: pointer;
 }
 
+
 @keyframes shadowBtn {
   from {
-    text-shadow: -3px 0px 3px #502921;
+    box-shadow: 0px 0px 0px 7px rgba(255, 255, 255, 0.10);
+  
   }
 
   20% {
-    text-shadow: -3px 0px 3px #502921;
+    box-shadow: 0px 0px 0px 7px rgba(255, 255, 255, 0.30);
+    text-shadow: 0px 0px 18px #ffffff;
   }
-
-  60% {
+  50% {
+    box-shadow: 0px 0px 0px 7px rgba(255, 255, 255, 0.60);
+    transform: scale(1.02);
+    
+  }
+  80% {
+    box-shadow: 0px 0px 0px 7px rgba(255, 255, 255, 0.30);
     text-shadow: 0px 0px 18px #ffffff;
   }
 
   to {
-    text-shadow: -3px 0px 3px #502921;
+    box-shadow: 0px 0px 0px 7px rgba(255, 255, 255, 0.10);
+ 
   }
 }
 

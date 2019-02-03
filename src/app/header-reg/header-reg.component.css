@@ -81,6 +81,9 @@ h1 {
     width: 54vw;
     height: 37vw;
   }
+  header{
+    background-image: url(../../assets/image/header-sign-bg-min.jpg)
+  }
 }
 
 @media(max-width:768px) {
