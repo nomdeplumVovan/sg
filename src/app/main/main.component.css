@@ -22,10 +22,21 @@ h4 {
   text-align: center;
 }
 
-img {
+.team-img {
+
+  background-repeat: no-repeat;
+  background-size: contain;
   width: 240px;
   height: 240px;
-  margin-bottom: 23px;
+  margin-bottom: 8px;
+}
+
+.ceo {
+  background-image: url(../../assets/image/22081609_xxl.png);
+}
+
+.group {
+  background-image: url(../../assets/image/22081657_xxl.png);
 }
 
 p {
@@ -90,6 +101,7 @@ h2 {
     color: #fb4c31;
     text-shadow: -3px 0px 3px #fb4c31;
   }
+
   52% {
     color: #fb4c31;
     text-shadow: -3px 0px 3px #fb4c31;
@@ -134,8 +146,9 @@ h2 {
   height: 16px;
   margin: 0 10px;
 }
-@media(max-width: 768px){
-  .unit-saying{
+
+@media(max-width: 768px) {
+  .unit-saying {
     width: 92vw;
   }
 }

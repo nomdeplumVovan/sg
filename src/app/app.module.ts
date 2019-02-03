@@ -1,25 +1,48 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { Routes, RouterModule } from '@angular/router';
+import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
+
+//============opt-in-page===============
+import { OptInPageComponent } from './pages/opt-in-page/opt-in-page.component';
 import { FooterComponent } from './footer/footer.component';
 import { HeaderComponent } from './header/header.component';
 import { MainComponent } from './main/main.component';
-import { LogoSecurityComponent } from './logo-security/logo-security.component';
-import { CurrentTimeComponent } from './current-time/current-time.component';
-import { ReverseTimerComponent } from './reverse-timer/reverse-timer.component';
-import { OptInComponent } from './basic/opt-in/opt-in.component';
-import { SignUpComponent } from './basic/sign-up/sign-up.component';
-import { RegFormComponent } from './basic/reg-form/reg-form.component';
-import { MenuComponent } from './menu/menu.component';
-import { OptInPageComponent } from './pages/opt-in-page/opt-in-page.component';
-import { HeaderInfoComponent } from './header-info/header-info.component';
-import { VideoComponent } from './video/video.component';
+
+// ============reg-form-page==============
+import { RegPageComponent } from './pages/reg-page/reg-page.component';
 import { FooterRegComponent } from './footer-reg/footer-reg.component';
 import { HeaderRegComponent } from './header-reg/header-reg.component';
 import { MainRegComponent } from './main-reg/main-reg.component';
-import { RegPageComponent } from './pages/reg-page/reg-page.component';
+
+// ========basic-=========================
+import { OptInComponent } from './basic/opt-in/opt-in.component';
+import { SignUpComponent } from './basic/sign-up/sign-up.component';
+import { RegFormComponent } from './basic/reg-form/reg-form.component';
 import { SignUpBtnComponent } from './basic/sign-up-btn/sign-up-btn.component';
+
+// =========utils=========================
+import { HeaderInfoComponent } from './header-info/header-info.component';
+import { CurrentTimeComponent } from './current-time/current-time.component';
+import { ReverseTimerComponent } from './reverse-timer/reverse-timer.component';
+import { MenuComponent } from './menu/menu.component';
+import { VideoComponent } from './video/video.component';
+import { LogoSecurityComponent } from './logo-security/logo-security.component';
+
+
+// =======not-found-page==================
+import { NotFoundComponent } from './pages/not-found/not-found.component';
+
+//=======route definition================
+const appRoutes: Routes = [
+  { path: '', component: OptInPageComponent },
+  { path: 'registr', component: RegPageComponent },
+  { path: '**', component: NotFoundComponent }
+  // { path: '**', redirectTo: '/' }
+];
+
 
 @NgModule({
   declarations: [
@@ -41,10 +64,13 @@ import { SignUpBtnComponent } from './basic/sign-up-btn/sign-up-btn.component';
     HeaderRegComponent,
     MainRegComponent,
     RegPageComponent,
-    SignUpBtnComponent
+    SignUpBtnComponent,
+    NotFoundComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FormsModule,
+    RouterModule.forRoot(appRoutes)
   ],
   providers: [],
   bootstrap: [AppComponent]
