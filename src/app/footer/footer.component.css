@@ -90,8 +90,14 @@ footer h4 {
   text-align: center;
   text-decoration: none;
 }
-@media(max-width: 1024px){
-  footer{
+
+.footer-menu a:hover {
+  color: #00ffff;
+  text-decoration: underline  #00ffff;
+}
+
+@media(max-width: 1024px) {
+  footer {
     background-image: url(../../assets/image/footer-bg-min.jpg);
   }
 }
@@ -123,8 +129,7 @@ footer h4 {
   }
 
   .security-info {
-    color:#000;
+    color: #000;
     font-size: 1.4rem;
   }
 }
-

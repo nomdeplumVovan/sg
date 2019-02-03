@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { User } from 'src/app/user';
+import { UserService } from 'src/app/user.service';
 
 @Component({
   selector: 'app-opt-in',
@@ -6,10 +8,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./opt-in.component.css']
 })
 export class OptInComponent implements OnInit {
+ user: User = new User();
+ 
 
-  constructor() { }
+  constructor(private userServis: UserService) {}
 
   ngOnInit() {
+   
   }
 
 }

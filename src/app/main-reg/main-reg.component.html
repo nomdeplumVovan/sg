@@ -92,44 +92,25 @@
 
   <div class="watch">
     <h2>Watch Live Accounts</h2>
-    <div class="watch-image"></div>
-    <!-- <img src="../assets/image/watch.png" alt="Watch Live Accounts" title="example"> -->
+    <!-- <div class="watch-image"></div> -->
+    <img src="./../assets/image/watch.png" alt="Watch Live Accounts" title="example" class="watch-image" [ngClass]="{watchImageFull:fullScreen}" (click)="fullScreen=!fullScreen" title="click for full Screen ">
   </div>
+
   <!-- ==============Frequently Asked Questions=============== -->
   <div class="faq">
     <h2>Frequently Asked Questions</h2>
 
     <div class="questions">
-      <div class="question" [ngClass]="{questionActive:askShown1 }" (click)='askShown1=!askShown1'>What kind of
-        results can I expect?
-        <div class="ask" *ngIf='askShown1'>empty</div>
+      <div *ngFor="let it of questions"
+        class="question" [ngClass]="{questionActive: it.isExpanded }" (click)='it.isExpanded=!it.isExpanded' >
+        {{ it.title }}
+        <div class="ask" *ngIf='it.isExpanded'>
+          {{ it.content }}
+        </div>
       </div>
-      <div class="question" [ngClass]="{questionActive:askShown2}" (click)='askShown2=!askShown2'>How many hours per
-        day do I need to work?
-        <div class="ask" *ngIf='askShown2'>empty</div>
-      </div>
-      <div class="question" [ngClass]="{questionActive:askShown3 }" (click)='askShown3=!askShown3'>Is there a maximum
-        that I can make?
-        <div class="ask" *ngIf='askShown3'>Our members typically profit a minimum of $1,000 each and every single
-          day. That amounts to
-          about $30,000 a
-          month. And about $365,000 a year.</div>
-      </div>
-      <div class="question" [ngClass]="{questionActive:askShown4 }" (click)='askShown4=!askShown4'>How much does this
-        cost?
-        <div class="ask" *ngIf='askShown4'>The 1K Daily Profit software will cost you absolutely nothing. I am
-          sharing this with you
-          absolutely FREE. All
-          you have to do is fill out the form below to register to become a member.</div>
-      </div>
-      <div class="question" [ngClass]="{questionActive:askShown5 }" (click)='askShown5=!askShown5'>Is this like MLM,
-        Affiliate Marketing or Forex?
-        <div class="ask" *ngIf='askShown5'>empty</div>
-      </div>
-      <div class="question" [ngClass]="{questionActive:askShown6 }" (click)='askShown6=!askShown6'>Are there any
-        fees?
-        <div class="ask" *ngIf='askShown6'>empty</div>
-      </div>
+
+
+
     </div>
   </div>
 

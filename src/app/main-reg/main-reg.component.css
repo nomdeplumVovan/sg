@@ -233,12 +233,21 @@ h4 {
 }
 
 .watch-image {
-  background-image: url(../../assets/image/watch.png);
+  /* background-image: url(../../assets/image/watch.png);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: contain; */
   width: 70vw;
   /* max-width: 1040px; */
-  height: 45vw;
+  height: 50vw;
+  cursor: pointer;
+}
+.watchImageFull{
+  position: absolute;
+  z-index: 8;
+  width: 95vw;
+  height: 68vw;
+  
+  /* height: 100vh; */
 }
 
 .watch h2,

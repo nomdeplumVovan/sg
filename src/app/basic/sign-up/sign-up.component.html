@@ -1,11 +1,12 @@
 <form action="">
-  <input type="text" name="FirstName"  placeholder="First Name">
-  <input type="text" name="LastName" placeholder="Last Name">
-  <input type="email" name="Email"  placeholder="Email">
-  <input type="password" name="Password"  placeholder="Password">
+  <input type="text" name="firstName"  placeholder="First Name" [(ngModel)]="user.firstName">
+  <input type="text" name="lastName" placeholder="Last Name" [(ngModel)]="user.lastName">
+  <input type="email" name="email"  placeholder="Email" [(ngModel)]="user.email">
+  <input type="password" name="password"  placeholder="Password" [(ngModel)]="user.password">
   <div class="phone">
-    <input type="text" name="Prefix" class="Prefix" placeholder="49">
-    <input type="tel" name="PhoneNumber" class="PhoneNumber" placeholder="PhoneNumber">
+    <input type="text" name="prefix" class="Prefix" placeholder="49" title="country code"[(ngModel)]="user.countryCode" >
+    <input type="tel" name="phoneNumber" class="PhoneNumber" placeholder="PhoneNumber" [(ngModel)]="user.phoneNumber">
   </div>
   <button type="submit" class="sign-up">GET FREE ACCESS</button>
 </form>
+<!-- {{user|json}} -->

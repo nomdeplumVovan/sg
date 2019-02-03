@@ -4,6 +4,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
+import { UserService } from './user.service';
 
 //============opt-in-page===============
 import { OptInPageComponent } from './pages/opt-in-page/opt-in-page.component';
@@ -34,6 +35,7 @@ import { LogoSecurityComponent } from './logo-security/logo-security.component';
 
 // =======not-found-page==================
 import { NotFoundComponent } from './pages/not-found/not-found.component';
+
 
 //=======route definition================
 const appRoutes: Routes = [
@@ -72,7 +74,7 @@ const appRoutes: Routes = [
     FormsModule,
     RouterModule.forRoot(appRoutes)
   ],
-  providers: [],
+  providers: [UserService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
