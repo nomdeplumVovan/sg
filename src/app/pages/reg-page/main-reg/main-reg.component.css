@@ -55,7 +55,7 @@ main {
 }
 
 .team-img {
-  background-image: url(../../assets/image/22081657_xxl.png);
+  background-image: url(../../../../assets/image/22081657_xxl.png);
   background-repeat: no-repeat;
   background-size: contain;
   width: 240px;
@@ -142,15 +142,15 @@ h2 {
 }
 
 .step1 {
-  background-image: url(../../assets/icon/1.png);
+  background-image: url(../../../../assets/icon/1.png);
 }
 
 .step2 {
-  background-image: url(../../assets/icon/2.png);
+  background-image: url(../../../../assets/icon/2.png);
 }
 
 .step3 {
-  background-image: url(../../assets/icon/3.png);
+  background-image: url(../../../../assets/icon/3.png);
 }
 
 /* =========You Get When You Register============ */
@@ -192,19 +192,19 @@ h2 {
 }
 
 .auto-trade {
-  background-image: url(../../assets/icon/auto-trade.svg);
+  background-image: url(../../../../assets/icon/auto-trade.svg);
 }
 
 .vip-area {
-  background-image: url(../../assets/icon/viparea.svg);
+  background-image: url(../../../../assets/icon/viparea.svg);
 }
 
 .support {
-  background-image: url(../../assets/icon/support.png);
+  background-image: url(../../../../assets/icon/support.png);
 }
 
 .members-only {
-  background-image: url(../../assets/icon/membersonly.svg);
+  background-image: url(../../../../assets/icon/membersonly.svg);
 }
 
 h4 {

@@ -8,15 +8,15 @@ import { UserService } from './user.service';
 
 //============opt-in-page===============
 import { OptInPageComponent } from './pages/opt-in-page/opt-in-page.component';
-import { FooterComponent } from './footer/footer.component';
-import { HeaderComponent } from './header/header.component';
-import { MainComponent } from './main/main.component';
+import { FooterComponent } from './pages/opt-in-page/footer/footer.component';
+import { HeaderComponent } from './pages/opt-in-page/header/header.component';
+import { MainComponent } from './pages/opt-in-page/main/main.component';
 
 // ============reg-form-page==============
 import { RegPageComponent } from './pages/reg-page/reg-page.component';
-import { FooterRegComponent } from './footer-reg/footer-reg.component';
-import { HeaderRegComponent } from './header-reg/header-reg.component';
-import { MainRegComponent } from './main-reg/main-reg.component';
+import { FooterRegComponent } from './pages/reg-page/footer-reg/footer-reg.component';
+import { HeaderRegComponent } from './pages/reg-page/header-reg/header-reg.component';
+import { MainRegComponent } from './pages/reg-page/main-reg/main-reg.component';
 
 // ========basic-=========================
 import { OptInComponent } from './basic/opt-in/opt-in.component';
